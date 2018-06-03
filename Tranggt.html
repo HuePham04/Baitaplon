@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Smoothies Garden</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    body{
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #663300;
+      color: white;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <img src="fileanh/logo.png" alt="logo" style="width: 100px;height: 100px;">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="Trangchu.html">Trang chủ</a></li>
+        <li class="active"><a href="#">Giới thiệu</a></li>
+        <li><a href="sanpham.html">Sản phẩm</a></li>
+        <li><a href="Trangmenu.html">Tin tức</a></li>
+        <li><a href="Tranglienhe.html">Liên hệ</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Đăng nhập</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Giỏ hàng</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="fileanh/nuocep.jpg" style="width: 100%; height: 400px;" alt="Image">
+        <div class="carousel-caption">
+            <h2>Smoothies Garden</h2>
+            <p>Chào mừng quý khách đến với Smoothies Garden</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="fileanh/anh1.jpg" style="width: 100%; height: 400px;" alt="Image">
+        <div class="carousel-caption">
+          <h2>Smoothies Garden</h2>
+          <p>Sự hài lòng của các bạn là niềm vinh hạnh của chúng tôi</p>
+        </div>      
+      </div>
+      <div class="item">
+        <img src="fileanh/anh2.jpg" style="width: 100%; height: 400px;" alt="Image">
+        <div class="carousel-caption">
+          <h3>Smoothies Garden</h3>
+          <p>Hân hạnh được phục vụ quý khách</p>
+        </div>      
+      </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<div class="container text-center">    
+  <h3>Hotline: 0988658989</h3><br>
+  <div class="row">
+    <div class="col-sm-12" style="text-align: left">
+      <h1>Smoothies Garden - Thiên đường của các loại đồ uống</h1>
+      <img src="fileanh/111.jpg" class="img-responsive" style="width:100%; height: 500px;" alt="Image">
+      <p>Đồ uống làm từ trái cây đang là một thứ đồ uống “làm mưa làm gió” trong những năm gần đây. 
+        Nắm bắt được xu thế này, ngày càng có nhiều thương hiệu mới ra đời để phục vụ nhu cầu của các bạn trẻ. Giữa bạt ngàn những cửa hàng lớn,
+        Smoothies Garden mang phong cách hoàn toàn khác nhưng lại vô cùng hấp dẫn các tín đồ thưởng trà, nước ép trái cây và sinh tố 100% hương vị từ thiên nhiên.</p>
+      <p>Smoothies Garden như một ốc đảo giữa lòng thành phố nhộn nhịp, nơi đây có những đồ uống thơm, ngon, bổ dưỡng 
+          lạ miệng,độc đáo.Có không gian thoáng đãng, yên bình, có không khí đầm ấm, thân mật như ở nhà 
+          khiến khách hàng nhớ mãi không muốn về.</p>
+  
+      <p>Smoothies Garden có nét đặc trưng rất riêng với sự mộc mạc, giản dị nhưng lại rất hiện đại và tinh tế, không lẫn lộn với bất kì 
+             quán nào khác trong thành phố.</p>
+            
+      <p>Từ cách trang trí, phối cảnh, đến cách sắp xếp bàn ghế, ánh đèn, quầy bar,.. đồng đều một cách hài hòa, vừa vặn. Màu nâu của gỗ được tận dụng tối đa thể hiện phong cách của quán.</p>
+            
+      <p>Menu của quán được viết tay cẩn thận, rõ ràng trên những lát gỗ nhỏ nhắn, kèm theo là hình ảnh thật của từng đồ uống trong menu xâu lại với nhau tạo cảm giác thích thú
+            khi cầm trên tay, sự sáng tạo trong cái giản dị đã giúp khách hàng xem kĩ hơn tất cả menu độc đáo tại quán,</p>
+            
+      <p>Thiết kế mở của Smoothies Garden không cầu kì vừa có đủ không gian ngoài trời lẫn trong nhà
+           cho những bữa ăn khác nhau. Tiệc ăn mừng, tân niên, tất niên không gian bên ngoài rộng, thoáng mát sẽ rất phù hợp,
+            vừa đủ chỗ cho số lượng lớn khách vừa tạo không khí náo nhiệt. Tiệc báo hỷ, sinh nhật, họp mặt cần sự ấm cúng,
+             thân mật thì không gì thích hợp hơn là không gian bên trong và tậng trên của quán.</p>
+            <h2>Smoothies Garden- Vì sao bạn nên lựa chọn?</h2>
+            <p> Chúng tôi luôn luôn nỗ lực cung cấp những sản phẩm an toàn về chất lượng, phong phú về chủng loại, 
+              cạnh tranh về giá cả để mang lại những giá trị cao nhất cho khách hàng. 
+              Smoothies Garden không chỉ bán đồ uống mà hơn nữa trong từng sản phẩm mang đến những văn hóa trà tốt nhất để đạt được sự hài lòng của khách hàng cao nhất.</p>
+            <p>Smoothies Garden tự hào là thương hiệu đồ uống vì sức khỏe. 
+              Xuất phát từ cái tâm, với mong muốn mang lại những sản phẩm chất lượng nhất và đảm bảo sức khỏe cho khách hàng,
+               chúng tôi sử dụng những nguyên liệu tốt nhất, được kiểm định và có nguồn gốc rõ ràng, đảm bảo an toàn vệ sinh</p>
+            <p>Một lần nữa, Smoothies Garden xin trân trọng gửi lời cảm ơn đến tất cả Quý khách hàng đã tin tưởng và sử dụng sản phẩm trong suốt thời gian qua. 
+              Đây chính là nguồn động lực để chúng tôi tiếp tục nâng cao chất lượng và dịch vụ, mở rộng thêm nhiều chi nhánh trên cả nước để phục vụ tốt nhất đến các khách hàng.</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="fileanh/tragungsua.jpg" class="img-responsive" style="width:100%; height: 270px;" alt="Image">    
+    </div>
+    <div class="col-sm-4">
+      <img src="fileanh/traxanhnb.jpg" class="img-responsive" style="width:100%; height: 270px;" alt="Image">  
+    </div>
+    <div class="col-sm-4">
+      <img src="fileanh/tradao.jpg" class="img-responsive" style="width:100%; height: 270px;" alt="Image">  
+     </div>
+     <div class="col-sm-12" style="text-align: left">
+        <h3>Khám phá</h3>
+       <p>Vệ sinh chính là tiêu chí hàng đầu của quán, không cần phô trương, bạn chỉ cần xem qua 
+            cách phân bố khu vực của quán cũng đủ tin tưởng, khu bếp, khu vệ sinh, khu dụng cụ đồ uống 
+            đều được tách riêng và nằm trong tầm mắt của thực khách.</p>
+                
+        <p>Ngoài ra, giá cả đồ uống là điều ai cũng chú trọng, Smoothies Garden hoàn toàn cho bạn một câu trả lời
+             bạn hài lòng nhất, giá cả trên menu vừa túi tiền cho mọi đối tượng thực khách từ sinh viên, nhân viên văn phòng 
+             cho đến doanh nhân, khách nước ngoài.</p>
+        <p> Quán mở cửa phục vụ thực khách từ 9h – 23h hàng ngày!</p>
+        <p>Với nhiều năm kinh nghiệm trong lĩnh vực đồ uống, chúng tôi đã dồn tâm huyết để cho ra đời một menu đa dạng, chọn lọc kỹ càng. 
+            chúng tôi luôn không ngừng sáng tạo ra các công thức mới, đồ uống mới để không bị nhầm lẫn với bất kì một quán đồ uống nào khác.
+            Chính vì vậy Smoothies Garden đã tạo được chỗ đứng riêng không chỉ ở Hà Nội mà còn các tỉnh thành khác ​</p>
+    </div>
+  </div>
+</div><br>
+<footer class="container-fluid text-center">
+  <h2><b>Smoothies Garden - Thiên đường của các loại đồ uống</b></h2>
+  <p> Địa chỉ: 440 - Tây Sơn - Quận Đống Đa - Hà Nội</p>
+  <p>Mở cửa: 9:00 đến 23:00 hàng ngày.</p>
+  <p>Điện thoại:0988658989</p>
+</footer>
+</body>
+</html>

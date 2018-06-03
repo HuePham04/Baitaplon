@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Smoothies Garden</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    body{
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #663300;
+      color: white;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <img src="fileanh/logo.png" alt="logo" style="width: 100px;height: 100px;">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav" >
+        <li class="active" ><a href="#">Trang chủ</a></li>
+        <li><a href="Tranggt.html">Giới thiệu</a></li>
+        <li><a href="sanpham.html">Sản phẩm</a></li>
+        <li><a href="Trangtintuc.html">Tin tức</a></li>
+        <li><a href="Tranglienhe.html">Liên hệ</a></li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Đăng nhập</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Giỏ hàng</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="fileanh/nuocep.jpg" style="width: 100%; height: 400px;" alt="Image">
+        <div class="carousel-caption">
+          <h2>Smoothies Garden</h2>
+          <p>Chào mừng quý khách đến với Smoothies Garden</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="fileanh/anh1.jpg" style="width: 100%; height: 400px;" alt="Image">
+        <div class="carousel-caption">
+          <h2>Smoothies Garden</h2>
+          <p>Sự hài lòng của các bạn là niềm vinh hạnh của chúng tôi</p>
+        </div>      
+      </div>
+
+    <div class="item">
+      <img src="fileanh/anh2.jpg" style="width: 100%; height: 400px;" alt="Image">
+      <div class="carousel-caption">
+        <h3>Smoothies Garden</h3>
+        <p>Hân hạnh được phục vụ quý khách</p>
+      </div>      
+    </div>
+  </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<div class="container text-center">    
+  <h3>Hotline: 0988658989</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <h1>Khám phá</h1>
+      <img src="fileanh/anh.jpg" class="img-responsive" style="width:100%;height: 270px" alt="Image">
+      <p>Tìm kiếm & tận hưởng một không gian yên tĩnh, nhẹ nhàng dành cho gia đình và bạn bè
+         cùng với những ly đồ uống giúp bạn giải nhiệt đáp ứng ứng các tiêu chí về hương vị, 
+         chất dinh dưỡng có lowijc cho sức khỏe. 
+         Smoothies Garden chính là điểm đến của bạn </p>
+    </div>
+    <div class="col-sm-4"> 
+      <h1>Thưởng thức</h1>
+      <img src="fileanh/5.jpg" class="img-responsive" style="width:100%; height: 270px;" alt="Image">
+      <p>Những loại đồ uống hấp dẫn như Nước ép trái cây, Sinh tố, Mocktail trái cây, Các loại trà,
+         Smoothies Dâu tây, Việt quất,Mâm xôi, Chanh bạc hà
+         ... sẽ mang lại cảm giác thật đặc biệt dành cho bạn.</p>    
+    </div>
+    <div class="col-sm-4">
+      <h1>Điểm đến</h1>
+      <img src="fileanh/diadiem.jpg" class="img-responsive" style="width:100%;height: 270px" alt="Image">
+      <p>Đây là địa điểm đến cực kỳ lý tưởng  dành cho bạn trong những ngày thời tiết nắng nóng này.
+        Đừng bỏ lỡ hãy đến ngay với chúng tôi.
+         Địa chỉ: 440 - Tây Sơn - Quận Đống Đa - Hà Nội<br>
+          </p>    
+    </div>
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+  <h2><b>Smoothies Garden - Thiên đường của các loại đồ uống</b></h2>
+  <p>Địa chỉ: 440 - Tây Sơn - Quận Đống Đa - Hà Nội</p>
+  <p>Mở cửa: 9:00 đến 23:00 hàng ngày.</p>
+  <p>Điện thoại: 0988658989</p>
+</footer>
+
+</body>
+</html>
